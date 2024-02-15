@@ -1,4 +1,5 @@
 using Adw;
+//using Gtk;
 
 namespace TilemapEditor;
 
@@ -11,6 +12,7 @@ public class TilemapEditorWindow : Window{
         builder.Connect(this);
     }
 
-    public TilemapEditorWindow() : this(new Gtk.Builder("tilemapeditor.ui"), "window")
-    {}
+    public TilemapEditorWindow() : this(new Gtk.Builder("MainWindow.ui"), "mainWindow"){
+
+    }
 }

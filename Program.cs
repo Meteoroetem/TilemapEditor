@@ -7,7 +7,7 @@ application.OnActivate += (sender, args) =>
     var window = new TilemapEditor.TilemapEditorWindow
     {
         Application = (Application) sender,
-        Title = "Gtk4 Window"
+        Title = "MonoGame Tilemap Editor"
     };
     window.SetDefaultSize(1000, 700);
     window.Show();
